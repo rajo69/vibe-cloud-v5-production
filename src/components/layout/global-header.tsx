@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { useAuth } from '@/contexts/auth-context';
 import { GithubIcon } from 'lucide-react';
 import { CloudflareLogo } from '../icons/logos';
+import { VibeCloudLogo } from '../icons/vibe-cloud-logo';
 
 export function GlobalHeader() {
 	const { user } = useAuth();
@@ -34,7 +35,7 @@ export function GlobalHeader() {
 							className='flex items-center'
 						>
 							<SidebarTrigger className="h-8 w-8 text-text-primary rounded-md hover:bg-orange-50/40 transition-colors duration-200" />
-							<CloudflareLogo
+							<VibeCloudLogo
 								className="flex-shrink-0 mx-auto transition-all duration-300"
 								style={{
 									width: '28px' ,
