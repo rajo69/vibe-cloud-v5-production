@@ -17,9 +17,9 @@ export function Header({
 		>
 			<h1 className="flex items-center gap-2 mx-4">
 				<Link to="/">
-					<VibeCloudLogo
-						className="h-4"
-						aria-label="Vibe Cloud v1"
+					<CloudflareLogo
+						className="h-4 text-bg-bright-dim"
+						aria-label="Cloudflare v1"
 					/>
 				</Link>
 			</h1>
