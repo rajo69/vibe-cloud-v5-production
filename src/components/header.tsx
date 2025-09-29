@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import { CloudflareLogo } from './icons/logos';
-import { VibeCloudLogo } from './icons/logos';
+import { VibeCloudLogo } from '../icons/vibe-cloud-logo';
 import { Link } from 'react-router';
 
 export function Header({
