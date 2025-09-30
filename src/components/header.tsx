@@ -15,14 +15,7 @@ export function Header({
 				className,
 			)}
 		>
-			<h1 className="flex items-center gap-2 mx-4">
-				<Link to="/">
-					<VibeCloudLogo
-						className="h-4"
-						aria-label="Vibe Cloud v1"
-					/>
-				</Link>
-			</h1>
+
 			<div className="flex-1"></div>
 			<div className="flex items-center gap-4">
 				{children}
