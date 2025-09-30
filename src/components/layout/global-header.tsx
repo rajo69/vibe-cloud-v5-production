@@ -63,7 +63,7 @@ export function GlobalHeader() {
 								<div className="flex font-semibold gap-2 items-center bg-accent dark:bg-accent text-white rounded px-2 hover:opacity-80 cursor-pointer" onClick={() => window.open("https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/vibesdk", "_blank")}>
 									Deploy <CloudflareLogo className='w-5 h-5' color1='#fff'  />
 								</div>
-								<div className="flex font-semibold items-center bg-text-primary text-bg-4 rounded gap-1 px-2 hover:opacity-80 cursor-pointer" onClick={() => window.open("https://github.com/cloudflare/vibesdk", "_blank")} >
+								<div className="flex font-semibold items-center bg-text-primary text-bg-4 rounded gap-1 px-2 hover:opacity-80 cursor-pointer" onClick={() => window.open("https://github.com/rajo69/vibe-cloud-v5-production", "_blank")} >
 									Fork <GithubIcon className="size-4" />
 								</div>
 							</div>
